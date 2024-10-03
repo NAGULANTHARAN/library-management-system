@@ -8,79 +8,139 @@
     <link rel="stylesheet" href="./css/booustrap.css" type="text/css">
     <style>
         
-        /*.stock-verification .img-responsive {
-            margin: 0 auto;
-            box-shadow: 1px 4px 6px #a39e9e
-        }
+       /* General layout styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
 
-        .fa-hand-o-right {
-            color: #5cac32;
-            font-size: 24px;
-            padding-right: 6px
-        }
+.text-center {
+    text-align: center;
+}
 
-        .workflow-img {
-            border: 4px solid #cac4c4;
-            box-shadow: 2px 18px 48px 0 rgb(0 0 0 / 11%);
-            margin-top: 30px
-        }
+.pro-sub-heading h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
-        .workflow-icon {
-            margin-right: 10px
-        }
+.pro-sub-heading img {
+    margin-top: 10px;
+}
 
-        #iframe-video {
-            box-shadow: 0 0 6px 0 rgb(0 0 0 / 75%);
-            -webkit-box-shadow: 0 0 6px 0 rgb(0 0 0 / 75%);
-            -moz-box-shadow: 0 0 6px 0 rgba(0,0,0,.75);
-            border-radius: 14px 14px 0 0;
-            overflow: hidden;
-            margin-bottom: -5px;
-            border: 10px solid #111010
-        }
+.margin-btm-40 {
+    margin-bottom: 40px;
+}
 
-        .feature-box a {
-            color: #5cac32
-        }
+.margin-btm-20 {
+    margin-bottom: 20px;
+}
 
-        .office-video {
-            box-shadow: 0 0 6px 0 rgb(0 0 0 / 75%);
-            -webkit-box-shadow: 0 0 6px 0 rgb(0 0 0 / 75%);
-            -moz-box-shadow: 0 0 6px 0 rgba(0,0,0,.75);
-            border: 10px solid #111;
-            border-radius: 14px;
-            position: relative;
-            width: 500px;
-            height: 350px;
-            overflow: hidden;
-            margin: 0 auto
-        }
+.d-flex {
+    display: flex;
+    align-items: center;
+}
 
-        .responsive-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            border: none
-        }
+.clear-fix {
+    clear: both;
+}
 
-        @media (max-width:767px) {
-            .cloud-cmss {
-                margin-top: -30px
-            }
+/* Column layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-            .prod-feature-sec, .prod-testimonial, .request-demo-module {
-                margin-bottom: 0
-            }
+.col-sm-7, .col-sm-5 {
+    width: calc(100% / 12 * 7); /* Adjusting to 7 out of 12 columns */
+    padding: 10px;
+}
 
-            .components {
-                margin-top: 10px
-            }
-        }
-    */
+.col-sm-5 {
+    width: calc(100% / 12 * 5); /* Adjusting to 5 out of 12 columns */
+    padding: 10px;
+}
+
+/* Image layout styling */
+.workflow-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header styles for each section */
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* List styling */
+.bullet-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.bullet-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bullet-list li:before {
+    content: '\2022';
+    color: green;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Strong text */
+strong {
+    font-weight: bold;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for specific sections */
+.book-return-slip {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.green-light {
+    color: green;
+}
+
+.red-alert {
+    color: red;
+}
+
         #background{
             
             width: 100%;
@@ -196,7 +256,7 @@
             <div class="container">
                 <div class="text-center pro-sub-heading margin-btm-40">
                     <h2 class="">RFID Library System Workflow </h2>
-                    <img loading="lazy" src="img/section-heading.png" class="img-fluid" alt="section-heading">
+                    <img loading="lazy" src="img/section-heading.png"  class="img-fluid" alt="section-heading">
                 </div>
                 <div class="row margin-btm-40 p-5">
                     <div class="col-sm-7">
@@ -205,7 +265,7 @@
                                 <source srcset="img/RFID.png" type="image/png" media="(min-width:100px)">
                                 <source srcset="img/RFID.png" type="image/png" media="(max-width:100px)"> 
                                 <source srcset="img/RFID.png"  type="image/png"> 
-                                <img src="img/RFID.png" width="100" height="100" alt="RFID Library System Workflow" class="img-fluid">
+                                <img src="img/RFID.png" width="10" height="100" alt="RFID Library System Workflow" class="img-fluid"> 
                             </picture>
                         </div>
                         <div class="margin-btm-20">
