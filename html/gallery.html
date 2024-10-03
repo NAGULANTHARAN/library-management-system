@@ -3,7 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Library management system</title>
+    <link rel="stylesheet" href="css/gallery.css">
     <style>
+        #background{
+
+            /*min-height: 1050px*/
+            width: 100%;
+            
+            }
+            #top{
+            height: 35px;
+            width: 100%;
+            background:#2c7ad6;
+            line-height: 35px;
+            padding: 0px 20px 9px 100px;
+            box-sizing: border-box;
+            word-spacing:10px ;
+            
+            }
+            #menu{
+            height: 65px;
+            width: 100%;
+            background:green;
+            
+            }
+            #logo{
+            height: 65px;
+            width: 40%;
+            background:white;
+            text-align: center;
+            line-height: 65px;
+            font-size: 40px;
+            float: left;
+            }
+            #menu1{
+            height: 65px;
+            width: 60%;
+            background:white;
+            float: left;
+            
+            }
+            #menu1 UL{
+            list-style: none;
+            padding-left: 200px;
+            box-sizing: border-box;
+            
+            }
+            #menu1 LI{
+            height: 45px;
+            width: 130px;
+            
+            text-align: center ; 
+            display: inline-block; 
+            line-height: 45px;
+            transform: translateY(-5px);
+            color: black;
+            font-size: 20px;
+            
+            }
+            #menu1 LI:hover{
+            background: #2c7ad6;  
+            color: white; 
+            transition: all ease 1s;
+            border-radius: 3px;
+            }
+            
         #down{
             height: 300px;
             width: 100%;
@@ -24,11 +88,75 @@
 
 </head>
 <body>
+    <div id="background"></div>
+        <div id="top">
+            <a href="#" class="fa fa-envelope" style="text-decoration:none;  color: white;">
+                nagulantharan26@gmail.com
+              </a>
+              <a href="#" class="fa fa-phone" style="text-decoration:none; color: white;">
+                +91-9360405478
+              </a>
+              <a href="#" class="fa fa-facebook" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+              <a href="#" class="fa fa-instagram" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+              <a href="https://x.com/Nagulantharan" class="fa fa-twitter" style="text-decoration:none;  padding: 7px ; float:right; color: white;"></a>
+        </div>
+        <div id="menu">
+            <div id="logo">LIBRARY<b style="color:#2c7ad6 ;">ZONE</b>
+            </div>
+            <div id="menu1">
+                <ul>
+                    <a href="home.html"><li class="fa fa-home">Home</li></a>
+                    <a href="gallery.html"><li class="fa fa-image">Gallery</li></a>
+                    <a href="Admin.html"><li class="fa fa-user">Admin Login</li></a>
+                    <a href="register.html"><li class="fa fa-registered">Register</li></a>
+                    <a href="login.html"><li class="fa fa-user">Login</li></a>
+
+                </ul>
+            </div>   
+        </div>
+<!-- -------------------------------------------------------------------------------------------------------->
+    <div class="gallery-container">
+        <h1 class="gallery-title">Library Management System Gallery</h1>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img/gallery/1.webp" alt="Book 1" class="gallery-img">
+                <div class="gallery-caption">RFID Tagging of Books</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/gallery/2.webp" alt="Book 2" class="gallery-img">
+                <div class="gallery-caption">Self Check Kiosk</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/gallery/3.webp" alt="Book 3" class="gallery-img">
+                <div class="gallery-caption">Anti-Theft Detection</div>
+            </div><br>
+
+            <div class="gallery-item">
+                <img src="img/gallery/4.webp"Book 4" class="gallery-img">
+                <div class="gallery-caption">Book Drop Box Station</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/gallery/5.jpg" alt="Book 5" class="gallery-img">
+                <div class="gallery-caption">Shelf Management System</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/gallery/6.webp" alt="Book 6" class="gallery-img">
+                <div class="gallery-caption">Self Return of Books</div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------------------------------------------------------------------------------->
     <div id="down">
         <h3>Stay Connected</h3>
         <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
         <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
-        <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+        <a href="https://x.com/Nagulantharan" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
         <h2>Contant Address</h2>
         <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
             Vill:Mullukkurichi 

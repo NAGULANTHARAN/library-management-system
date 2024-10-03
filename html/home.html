@@ -8,363 +8,196 @@
     <link rel="stylesheet" href="./css/booustrap.css" type="text/css">
     <style>
         
-       /* General layout styling */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
+      
 
-.text-center {
+#background{
+
+    /*min-height: 1050px*/
+    width: 100%;
+    
+    }
+    #top{
+    height: 35px;
+    width: 100%;
+    background:#2c7ad6;
+    line-height: 35px;
+    padding: 0px 20px 9px 100px;
+    box-sizing: border-box;
+    word-spacing:10px ;
+    
+    }
+    #menu{
+    height: 65px;
+    width: 100%;
+    background:green;
+    
+    }
+    #logo{
+    height: 65px;
+    width: 40%;
+    background:white;
     text-align: center;
-}
-
-.pro-sub-heading h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.pro-sub-heading img {
-    margin-top: 10px;
-}
-
-.margin-btm-40 {
-    margin-bottom: 40px;
-}
-
-.margin-btm-20 {
-    margin-bottom: 20px;
-}
-
-.d-flex {
-    display: flex;
-    align-items: center;
-}
-
-.clear-fix {
-    clear: both;
-}
-
-/* Column layout */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.col-sm-7, .col-sm-5 {
-    width: calc(100% / 12 * 7); /* Adjusting to 7 out of 12 columns */
-    padding: 10px;
-}
-
-.col-sm-5 {
-    width: calc(100% / 12 * 5); /* Adjusting to 5 out of 12 columns */
-    padding: 10px;
-}
-
-/* Image layout styling */
-.workflow-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Header styles for each section */
-h3 {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-/* List styling */
-.bullet-list {
+    line-height: 65px;
+    font-size: 40px;
+    float: left;
+    }
+    #menu1{
+    height: 65px;
+    width: 60%;
+    background:white;
+    float: left ;
+    
+    }
+    #menu2{
+    height: 60px;
+    width: 60%;
+   
+    float: left;
+    
+    }
+    #menu1 UL{
     list-style: none;
-    padding-left: 20px;
-}
-
-.bullet-list li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-
-.bullet-list li:before {
-    content: '\2022';
-    color: green;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-/* Paragraph styling */
-p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-}
-
-/* Strong text */
-strong {
-    font-weight: bold;
-}
-
-/* Link styling */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Additional styles for specific sections */
-.book-return-slip {
-    background-color: #f8f9fa;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-top: 15px;
-}
-
-.green-light {
-    color: green;
-}
-
-.red-alert {
-    color: red;
-}
-
-        #background{
-            
-            width: 100%;
-            }
-            #top{
-            height: 35px;
-            width: 100%;
-            background:#2c7ad6;
-            line-height: 35px;
-            padding: 0px 20px 9px 100px;
-            box-sizing: border-box;
-            word-spacing:10px ;
-            
-            }
-            #menu{
-            height: 65px;
-            width: 100%;
-            background:green;
-            
-            }
-            #logo{
-                height: 65px;
-                width: 40%;
-                background:white;
-                text-align: center;
-                line-height: 65px;
-                font-size: 40px;
-                float: left;
-                }
-                #menu1{
-                height: 65px;
-                width: 60%;
-                background:white;
-                float: left;
-                }
-                #menu1 UL{
-                    list-style: none;
-                    padding-left: 200px;
-                    box-sizing: border-box;
-                    
-                    }
-                    #menu1 LI{
-                    height: 45px;
-                    width: 130px;
-                    
-                    text-align: center ; 
-                    display: inline-block; 
-                    line-height: 45px;
-                    transform: translateY(-5px);
-                    color: black;
-                    font-size: 20px;
-                    
-                    }
-                    #menu1 LI:hover{
-                    background: #2c7ad6;  
-                    color: white; 
-                    transition: all ease 1s;
-                    border-radius: 3px;
-                    }
-        #down{
-            height: 300px;
-            width: 100%;
-            margin-top: 10px;
-            background:#2c7ad6;
-            text-align: center;
-            padding-top: 10px;
-            color: #2c7ad6;
-            }
-            .footer{
-                height: 20px;
-                width: 100%;
-                background: black;
-                color: white;
-                text-align: center;
-                }
-               .tag1{
-                    text-align: center;
-                }
-    </style>
+    padding-left: 200px;
+    box-sizing: border-box;
+    
+    }
+    #menu1 LI{
+    height: 45px;
+    width: 130px;
+    
+    text-align: center ; 
+    display: inline-block; 
+    line-height: 45px;
+    transform: translateY(-5px);
+    color: black;
+    font-size: 20px;
+    
+    }
+    #menu1 LI:hover{
+    background: #2c7ad6;  
+    color: white; 
+    transition: all ease 1s;
+    border-radius: 3px;
+    }
+    
+#down{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    background:#2c7ad6;
+    text-align: center;
+    padding-top: 10px;
+    color: #2c7ad6;
+    }
+    .footer{
+        height: 20px;
+        width: 100%;
+        background: black;
+        color: white;
+        text-align: center;
+        }
+</style>
 
 </head>
 <body>
-    <div id="background"></div>
-        <div id="top">
-            <a href="#" class="fa fa-envelope" style="text-decoration:none;  color: white;">
-                nagulantharan26@gmail.com
-              </a>
-              <a href="#" class="fa fa-phone" style="text-decoration:none; color: white;">
-                +91-9360405478
-              </a>
-              <a href="#" class="fa fa-facebook" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
-              <a href="#" class="fa fa-instagram" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
-              <a href="#" class="fa fa-twitter" style="text-decoration:none;  padding: 7px ; float:right; color: white;"></a>
-        </div>
-        <div id="menu">
-            <div id="logo">LIBRARY<b style="color:#2c7ad6;">ZONE</b>
-            </div>
-            <div id="menu1">
-                <ul>
-                    <a href="home.html"><li class="fa fa-home">Home</li></a>
-                    <a href="gallery.html"><li class="fa fa-image">Gallery</li></a>
-                    <a href="Admin.html"><li class="fa fa-user">Admin Login</li></a>
-                    <a href="register.html"><li class="fa fa-registered">Register</li></a>
-                    <a href="login.html"><li class="fa fa-user">Login</li></a>
-
-                </ul>
-            </div>   
-        </div>
-        <section>
-            <div class="container">
-                <div class="text-center pro-sub-heading margin-btm-40">
-                    <h2 class="">RFID Library System Workflow </h2>
-                    <img loading="lazy" src="img/section-heading.png"  class="img-fluid" alt="section-heading">
-                </div>
-                <div class="row margin-btm-40 p-5">
-                    <div class="col-sm-7">
-                        <div class="margin-btm-20 text-center">
-                            <picture>
-                                <source srcset="img/RFID.png" type="image/png" media="(min-width:100px)">
-                                <source srcset="img/RFID.png" type="image/png" media="(max-width:100px)"> 
-                                <source srcset="img/RFID.png"  type="image/png"> 
-                                <img src="img/RFID.png" width="10" height="100" alt="RFID Library System Workflow" class="img-fluid"> 
-                            </picture>
-                        </div>
-                        <div class="margin-btm-20">
-                            <div class="margin-btm-20">
-                                <div class="d-flex margin-btm-15">
-                                    <img loading="lazy" src="img/Shelf-Management.png" alt="Tagging of Books" class="workflow-icon"/>
-                                    <h3>Shelf Management</h3>
-                                </div>
-                                <p>The Shelf Management System consists of Mobile RFID Reader integrated with library software. This facilitates almost instant searching of the desired book in library & library book verification (Stock verification) can be done without a line-of-sight. The long read range of 3 meters makes stock verification & book searching an easy task.</p>
-                                <p>
-                                    <strong>For Stock Verification:</strong>
-                                    You need to press the scan button of the reader &amp;move it across the shelves. The reader gathers all the unique accession numbers of books in the physical range of 1 meter. The collected accession numbers are transferred to the 
-                                    <a href="https://www.iitms.co.in/products/rf-lib-man/" target="_blank">
-                                        <strong>RF LIB-man</strong>
-                                    </a>
-                                    library automation software &amp;a stock verification report is generated. It verifies 1, 00,000 books per day.
-                                </p>
-                                <p>
-                                    <strong>For Searching a Book:</strong>
-                                    You need to enter an accession number to search in reader &amp;sweep across shelves for searching. When a book is near-by the reader, a built-in beeper sounds to alert the librarians.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Book-Drop-Box-Station.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Book Drop Box/Station</h3>
-                            </div>
-                            <p>A patron can return books any time 24*7 in RFID enabled Book Drop Station which is normally kept outside the library. Patron's loan is immediately canceled and SMS is sent to him/her. A book return slip is printed and a beep sound comes out of it and a green light glow depicting a successful book return.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Tagging-Of-Books.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Tagging Of Books</h3>
-                            </div>
-                            <p>RFID Tag is pasted into the inner side of a front cover page of the book & a full-page sticker is attached to it for hiding it from the patron. Also, tagging is done using RFID Reader. Tagging implies writing RFID tag EPC code to library management system software and writing accession numbers to tag memory. This makes the book ready for all RFID operations. To use this service patrons get UHF-RFID ID cards.</p>
-                        </div>
-                        <div class="margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Self-Check-KIOSK.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Self Check KIOSK</h3>
-                            </div>
-                            <p>The integrated library automation software offers the facility of self-automated issue-return (Check-in/out) of books to patrons.</p>
-                        </div>
-                        <div class="margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Self-Issue-of-Books.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Self Issue of Books</h3>
-                            </div>
-                            <ul class="bullet-list margin-btm-20">
-                                <li>
-                                    <span>Patron shows his/her RFID card to the reader in Kiosk for automatic login</span>
-                                </li>
-                                <li>
-                                    <span>After that, he/she puts books to be issued on RFID Reader to avail it</span>
-                                </li>
-                                <!--<li><span>Books are issued to the patron &amp; RFID tag status becomes ‘Quit’</span></li> <li><span>The patron can take away the books through the security system at the library exit gate without any theft alarm</span></li>-->
-                            </ul>
-                        </div>
-                        <div class="margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Anti-Theft-Detection.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Anti Theft Detection</h3>
-                            </div>
-                            <p>The RFID Anti Theft Portals (security system) are placed at the exit gate of the library & portal tracks books up to 3 meters range and would trigger the alarm with red flashlights when a patron passes through a gate with an unissued book. It can detect multiple items at a time. This is the most accurate security system for libraries with minimum chances of false alarm.</p>
-                        </div>
-                        <div class=" margin-btm-20">
-                            <div class="d-flex margin-btm-15">
-                                <img loading="lazy" src="img/Self-Return-of-Books.png" alt="Tagging of Books" class="workflow-icon"/>
-                                <h3>Self Return of Books</h3>
-                            </div>
-                            <p>
-                                <strong>For Self-return of books:</strong>
-                                Patron just needs to keep the books on - Reader of Kiosk & the books are returned cancelling the patron loan.
-                            </p>
-                            <p>During the book issue or return process, a receipt is printed and SMS is sent to Patron.</p>
-                        </div>
-                    </div>
-                    <div class="clear-fix"></div>
-                </div>
-                </div></section>
-    <div id="down">
-        <h3>Stay Connected</h3>
-        
-        <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
-        <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
-        <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
-        <h2>Contant Address</h2>
-        <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
-            Vill:Mullukkurichi 
-            City:Rasipuram Dist:Namakkal
-            pin code:636142
-        </a> <br>
-        <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
-          +91-9360405478
-        </a> <br>
-        <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
-          nagulantharan26@gmail.com
-          </a>
+<div id="background"></div>
+<div id="top">
+    <a href="#" class="fa fa-envelope" style="text-decoration:none;  color: white;">
+        nagulantharan26@gmail.com
+      </a>
+      <a href="#" class="fa fa-phone" style="text-decoration:none; color: white;">
+        +91-9360405478
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100085348140505" class="fa fa-facebook" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+      <a href="#" class="fa fa-instagram" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+      <a href="https://x.com/Nagulantharan" class="fa fa-twitter" style="text-decoration:none;  padding: 7px ; float:right; color: white;"></a>
+</div>
+<div id="menu">
+    <div id="logo">LIBRARY<b style="color:#2c7ad6 ;">ZONE</b>
     </div>
-    <div class="footer">Developed By : NAGUL._G</div>
-</body>
-</html>
+    <div id="menu1">
+        <ul>
+            <a href="home.html"><li class="fa fa-home">Home</li></a>
+            <a href="gallery.html"><li class="fa fa-image">Gallery</li></a>
+            <a href="Admin.html"><li class="fa fa-user">Admin Login</li></a>
+            <a href="register.html"><li class="fa fa-registered">Register</li></a>
+            <a href="login.html"><li class="fa fa-user">Login</li></a>
+
+        </ul>
+        <div id="menu2">
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>   
+</div><br>
+
+
+    <!-- <header>
+        <div class="container">
+            <h1>Library Management System</h1>
+            
+        </div>
+    </header> -->
+    <main>
+        <section class="welcome">
+            <h2>Welcome to Our Library</h2>
+            <p>Your one-stop solution for managing library resources effectively.</p>
+            <a href="#features" class="btn">Explore Features</a>
+        </section>
+        <section id="features" class="features">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <h3>RFID Tagging</h3>
+                <p>Efficiently tag and manage library books with RFID technology.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Self Check Kiosk</h3>
+                <p>Patrons can easily check out and return books at their convenience.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Anti-Theft Detection</h3>
+                <p>Advanced security features to prevent unauthorized book removal.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Online Catalog</h3>
+                <p>Search and browse the library's collection from anywhere.</p>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are committed to providing the best library experience for our patrons.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Library Management System. All Rights Reserved.</p>
+        </div>
+    </footer>
+                <div id="down">
+                    <section id="contact" class="contact">
+                    <h3>Stay Connected</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100085348140505" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+                    <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+                    <a href="https://x.com/Nagulantharan" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+                    <h2>Contant Address</h2>
+                    <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+                        Vill:Mullukkurichi 
+                        City:Rasipuram Dist:Namakkal
+                        pin code:636142
+                    </a> <br>
+                    <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+                      +91-9360405478
+                    </a> <br>
+                    <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+                      nagulantharan26@gmail.com
+                      </a>
+                </div>
+            </section>
+                <div class="footer">Developed By : NAGUL._G </div>
+            </body>
+            </html>
