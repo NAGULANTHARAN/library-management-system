@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -49,6 +51,7 @@ nav ul li a {
     background: #f4f4f4;
     padding: 60px 20px;
     text-align: center;
+    background:url(img/2.avif);
 }
 
 .welcome h2 {
