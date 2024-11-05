@@ -92,6 +92,36 @@
         color: white;
         text-align: center;
         }
+       #Author{
+        columns: 2;
+       }
+         
+        .author-book-list {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .author-book-list h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        
+        .author-book-list ul {
+            list-style-type: none;
+            columns: 3; 
+        }
+        
+        .author-book-list li {
+            padding: 5px 0;
+        }
+        .page-name{
+            text-align: center;
+        }
 </style>
 
 </head>
@@ -113,23 +143,13 @@
     </div>
     <div id="menu1">
         <ul>
-            <a href="home.html"><li class="fa fa-home">Home</li></a>
-            <a href="gallery.html"><li class="fa fa-image">Gallery</li></a>
-            <a href="Admin.html"><li class="fa fa-user">Admin Login</li></a>
-            <a href="register.html"><li class="fa fa-registered">Register</li></a>
-            <a href="login.html"><li class="fa fa-user">Login</li></a>
-
+                <a href="home.html"><li class="fa fa-home">Home</li></a>
+                <a href="gallery.html"><li class="fa fa-image">Gallery</li></a>
+                <a href="Admin.html"><li class="fa fa-user">Admin Login</li></a>
+                <a href="register.html"><li class="fa fa-registered">Register</li></a>
+                <a href="login.html"><li class="fa fa-user">Login</li></a> 
         </ul>
-        <div id="menu2">
-        <nav>
-            <ul>
-               <a href="#features"><li class="fa fa-feature">Features</li></a> 
-                <a href="#about"><li class="fa fa-about">About Us</li></a> 
-                <a href="#contact"><li class="fa fa-contact">Contact</li></a> 
-            </ul>
-        </nav>
-    </div>
-    </div>   
+       </div>   
 </div>
 
     <main>
@@ -155,12 +175,87 @@
             <div class="feature-item">
                 <h3>Online Catalog</h3>
                 <p>Search and browse the library's collection from anywhere.</p>
+            </div><div class="feature-item">
+                <h3>Digital Catalog</h3>
+                <p>Browse, reserve, and renew books online through our digital catalog, accessible from anywhere.</p>
             </div>
+            
+            <div class="feature-item">
+                <h3>Automated Notifications</h3>
+                <p>Receive reminders for due dates, overdue books, and available reserved items, ensuring patrons stay informed and engaged.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>Advanced Search Options</h3>
+                <p>Find exactly what you’re looking for with our advanced search functionality, allowing searches by genre, author, publication date, and more.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>Secure User Accounts</h3>
+                <p>Each patron can manage their own account securely, tracking their borrowed items, reading history, and reservations.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>User-Friendly Interface</h3>
+                <p>An intuitive and accessible interface designed to simplify library operations for both staff and patrons.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>Real-Time Data and Analytics</h3>
+                <p>Library staff can access real-time data on circulation, popular titles, and inventory for informed decision-making.</p>
+            </div>
+        </div>
         </section>
-        <section id="about" class="about">
+ <!-- -----------------------------------------------------------------------------------------------------------------------------------------------        -->
+            <section class="welcome">
+                <a href="#Author" class="btn">Explore Author</a>
+            </section>
+            <div class="page-name">
+            <h2>Author</h2>
+            <p>Passionate storyteller dedicated to exploring the depths of human experience and imagination through compelling narratives.</p>
+             </div>
+                <section id ="Author" class="author-book-list">
+                    
+                        <li><strong>J.K. Rowling</strong> - <em>Harry Potter and the Sorcerer's Stone</em></li>
+                        <li><strong>George Orwell</strong> - <em>1984</em></li>
+                        <li><strong>J.R.R. Tolkien</strong> - <em>The Lord of the Rings</em></li>
+                        <li><strong>Agatha Christie</strong> - <em>Murder on the Orient Express</em></li>
+                        <li><strong>Jane Austen</strong> - <em>Pride and Prejudice</em></li>
+                        <li><strong>Mark Twain</strong> - <em>Adventures of Huckleberry Finn</em></li>
+                        <li><strong>F. Scott Fitzgerald</strong> - <em>The Great Gatsby</em></li>
+                        <li><strong>Harper Lee</strong> - <em>To Kill a Mockingbird</em></li>
+                        <li><strong>Ernest Hemingway</strong> - <em>The Old Man and the Sea</em></li>
+                        <li><strong>Gabriel Garcia Marquez</strong> - <em>One Hundred Years of Solitude</em></li>
+                        <li><strong>Leo Tolstoy</strong> - <em>War and Peace</em></li>
+                        <li><strong>Charles Dickens</strong> - <em>A Tale of Two Cities</em></li>
+                        <li><strong>Emily Brontë</strong> - <em>Wuthering Heights</em></li>
+                        <li><strong>Herman Melville</strong> - <em>Moby-Dick</em></li>
+                        <li><strong>Virginia Woolf</strong> - <em>Mrs Dalloway</em></li>
+                        <li><strong>Oscar Wilde</strong> - <em>The Picture of Dorian Gray</em></li>
+                        <li><strong>Franz Kafka</strong> - <em>The Metamorphosis</em></li>
+                        <li><strong>Fyodor Dostoevsky</strong> - <em>Crime and Punishment</em></li>
+                        <li><strong>James Joyce</strong> - <em>Ulysses</em></li>
+                        <li><strong>Mary Shelley</strong> - <em>Frankenstein</em></li>
+                        <li><strong>Haruki Murakami</strong> - <em>Norwegian Wood</em></li>
+                        <li><strong>Gabriel Garcia Marquez</strong> - <em>Love in the Time of Cholera</em></li>
+                        <li><strong>William Faulkner</strong> - <em>The Sound and the Fury</em></li>
+                        <li><strong>Ray Bradbury</strong> - <em>Fahrenheit 451</em></li>
+                        <li><strong>Aldous Huxley</strong> - <em>Brave New World</em></li>
+                        <li><strong>George R.R. Martin</strong> - <em>A Game of Thrones</em></li>
+                        <li><strong>Kurt Vonnegut</strong> - <em>Slaughterhouse-Five</em></li>
+                        <li><strong>J.D. Salinger</strong> - <em>The Catcher in the Rye</em></li>
+                        <li><strong>Albert Camus</strong> - <em>The Stranger</em></li>
+                        <li><strong>Ralph Ellison</strong> - <em>Invisible Man</em></li>
+                   
+                    </section>
+            
+
+
+            <section id="about" class="about">
             <h2>About Us</h2>
             <p>We are committed to providing the best library experience for our patrons.</p>
         </section>
+       
     </main>
     <footer>
         <div class="container">
